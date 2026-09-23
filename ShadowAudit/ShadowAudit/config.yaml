@@ -1,0 +1,13 @@
+# Configuracao do ShadowAudit
+
+database:
+  path: database/shadowaudit.db
+
+reports:
+  output_dir: reports_output
+
+plugins:
+  enabled:
+    - HTTPHeadersPlugin
+    - SSLCertPlugin
+    - PortScannerPlugin
